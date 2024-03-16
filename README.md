@@ -12,7 +12,7 @@ Example:
 ```sh
 ./cligraph "sin(x)" 200 50 10 0.1
 ```
-##TODO
+## TODO
 -Create own expression parser
 ## libraries used
 [TinyExpr by codeplea](https://github.com/codeplea/tinyexpr/tree/master)
