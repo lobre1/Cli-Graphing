@@ -1,10 +1,16 @@
 # Cli-Graphing
 Graphing tool in the cli based on 2d arrays.
 ![Example](./screenshot_021.png)
+## Compiling
+`gcc -lm main.c tinyexpr.c tinyexpr.h -o cligraph`
 ## How to use
-`./cligraph "(function)" (Width) (Height) (Scale Y) (Scale X)`
-example:
-`./cligraph "sin(x)" 200 50 10 0.1`
+```sh
+./cligraph "(function)" (Width) (Height) (Scale Y) (Scale X)
+``` 
+Example:
+``sh
+./cligraph "sin(x)" 200 50 10 0.1
+```
 ##TODO
 -Create own expression parser
 ## libraries used
