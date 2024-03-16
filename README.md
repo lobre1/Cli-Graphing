@@ -8,7 +8,8 @@ Graphing tool in the cli based on 2d arrays.
 ./cligraph "(function)" (Width) (Height) (Scale Y) (Scale X)
 ``` 
 Example:
-``sh
+
+```sh
 ./cligraph "sin(x)" 200 50 10 0.1
 ```
 ##TODO
