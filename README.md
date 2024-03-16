@@ -1,6 +1,6 @@
 # Cli-Graphing
 Graphing tool in the cli based on 2d arrays.
-![Example](./screenshot_021.png)
+![Example](./sinx2.png)
 ## Compiling
 `gcc -lm main.c tinyexpr.c tinyexpr.h -o cligraph`
 ## How to use
