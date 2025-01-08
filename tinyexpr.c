@@ -735,3 +735,4 @@ static void pn (const te_expr *n, int depth) {
 void te_print(const te_expr *n) {
     pn(n, 0);
 }
+	int len = 5;
